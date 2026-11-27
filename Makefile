@@ -18,6 +18,7 @@ LDLIBS   = -lwinmm
 # Source files
 CPP_SRCS = $(wildcard Core/App/*.cpp)
 
+C_SRCS  = $(wildcard Core/App/*.c)
 C_SRCS += $(wildcard Core/Middleware/FreeRTOS/*.c)
 C_SRCS += $(wildcard Core/Middleware/FreeRTOS/Source/*.c)
 C_SRCS += $(wildcard Core/Middleware/FreeRTOS/Source/portable/MSVC-MingW/*.c)
